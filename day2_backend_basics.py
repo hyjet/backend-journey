@@ -1,6 +1,6 @@
 """
 Day 2 (Upgraded)
-Backend-style Python Basics
+Backend-style Python with functions and type hints
 """
 
 # --- 1. Variable & Type ---
