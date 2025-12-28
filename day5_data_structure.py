@@ -17,7 +17,7 @@ def is_adult(user: Dict[str, Any]) -> bool:
 def get_active_adults(users: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     active_adults = []
     for user in users:
-        if(user.get("is_active") and is_adult(user)):
+        if(user["is_active"] and is_adult(user)):
             active_adults.append(user)
     return active_adults
 
