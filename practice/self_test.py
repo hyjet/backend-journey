@@ -71,7 +71,7 @@ def load_data(filename: str) -> dict:
         return {}
 
 
-def main():
+def main(DB_FILE :str) -> None:
     users = load_data(DB_FILE)
 
     while True:
@@ -91,5 +91,5 @@ def main():
             print("Invalid choice.")
 
 if __name__ == "__main__":
-    main()
+    main(DB_FILE)
 
